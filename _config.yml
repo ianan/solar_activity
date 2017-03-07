@@ -1,0 +1,8 @@
+title: Overview of NuSTAR Solar Observations
+description: For making overview plots of the NuSTAR solar observations.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
