@@ -1,5 +1,6 @@
 ### GOES15
 Hourly average of the GOES15 flux
-![https://raw.githubusercontent.com/ianan/solar_activity/master/GOES15_high_hrly_newest.png](https://raw.githubusercontent.com/ianan/solar_activity/master/GOES15_high_hrly_newest.png)
+![](https://raw.githubusercontent.com/ianan/solar_activity/master/GOES15_high_hrly_newest.png)
+[original image](https://raw.githubusercontent.com/ianan/solar_activity/master/GOES15_high_hrly_newest.png)
 
 ![https://raw.githubusercontent.com/ianan/solar_activity/master/GOES15_high_hrly_newest.png](https://raw.githubusercontent.com/ianan/solar_activity/master/GOES15_low_hrly_newest.png)
