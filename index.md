@@ -16,4 +16,4 @@ Cycle 23 and 24
 ![](https://raw.githubusercontent.com/ianan/solar_activity/master/activity_ssar_C2324.png)
 [original image](https://raw.githubusercontent.com/ianan/solar_activity/master/activity_ssar_C2324.png)
 
-*Updated: 08-March-2017*
+*Updated: 15-March-2017*
