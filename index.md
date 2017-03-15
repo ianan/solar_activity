@@ -19,7 +19,7 @@ Cycle 23 and 24
 #### Data sources
 * [GOES XRS data](http://satdat.ngdc.noaa.gov/sem/goes/data/new_avg/)
 * [NOAA AR via hek](https://www.lmsal.com/isolsearch)
-* [Sunspot number data](http://www.sidc.be/silso/DATA/SN_m_tot_V2.0.txt)
+* [SILSO/ROB Sunspot number data](http://www.sidc.be/silso/)
 * [Radio F10.7cm data](http://www.spaceweather.gc.ca/solarflux/sx-5-en.php)
 
 *Updated: 15-March-2017*
