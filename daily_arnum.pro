@@ -9,7 +9,7 @@ pro daily_arnum,year=year,rdnar=rdnar
   ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
   ;
 
-  if (n_elements(year) ne 1) then year='2016'
+  if (n_elements(year) ne 1) then year='2017'
   tws='01-Jan-'+year
   ; More than needed but makes sure we get all the days that year
   nf=367
@@ -49,6 +49,7 @@ pro daily_arnum,year=year,rdnar=rdnar
     print,i+1, '  --   ',nft,'   ', day
 
     if keyword_set(rdnar) then begin
+;      set_logenv,'DIR_GEN_NAR','/usr/local/sswdb/ydb/nar'
       rd_nar,day+' 00:00',day+' 23:59',ars
 
       if size(ars,/tname) eq 'STRUCT' then begin
