@@ -29,9 +29,9 @@ pro plot_goes15_update
   low60out[id]=0.
   high60out[id]=0.
 
-  xr=[2010.5,2017.5]
+  xr=[2010.5,2019]
   yr=[8e-10,3d-4]
-  
+
   ; Plot the low channel flux
 
   pp=plot(tims,low60out,xrange=xr,yrange=yr,xlog=0,ylog=1,thick=1,$
@@ -64,7 +64,7 @@ pro plot_goes15_update
   ;  pp.save,'GOES15_low_hrly_'+outname+'.png',height=720,width=1200
   pp.save,'GOES15_low_hrly_newest.png',height=720,width=1200
   pp.close
-  
+
   ; low the high channel flux
 
   pp=plot(tims,high60out,xrange=xr,yrange=yr,xlog=0,ylog=1,thick=1,$
@@ -74,7 +74,7 @@ pro plot_goes15_update
   pp.ytickformat='exp1'
   pp.title='GOES15 0.5-4.0 $\AA$'
 
-    ppa=plot(xr,[1e-8,1e-8],color='grey',line=1,/overplot)
+  ppa=plot(xr,[1e-8,1e-8],color='grey',line=1,/overplot)
   ppb=plot(xr,[1e-7,1e-7],color='grey',line=1,/overplot)
   ppc=plot(xr,[1e-6,1e-6],color='grey',line=1,/overplot)
   ppm=plot(xr,[1e-5,1e-5],color='grey',line=1,/overplot)

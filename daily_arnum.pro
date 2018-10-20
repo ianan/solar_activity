@@ -9,7 +9,7 @@ pro daily_arnum,year=year,rdnar=rdnar
   ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
   ;
 
-  if (n_elements(year) ne 1) then year='2017'
+  if (n_elements(year) ne 1) then year='2018'
   tws='01-Jan-'+year
   ; More than needed but makes sure we get all the days that year
   nf=367

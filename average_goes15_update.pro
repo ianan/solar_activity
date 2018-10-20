@@ -11,7 +11,7 @@ pro average_goes15_update,oldfile=oldfile
   ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   ;
 
-  if (n_elements(oldfile) ne 1) then oldfile='GOES15_60min_201702.dat'
+  if (n_elements(oldfile) ne 1) then oldfile='GOES15_60min_newest.dat'
 
   ; Load in the new files
   restore,file='gcsv_new.dat'

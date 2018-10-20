@@ -17,7 +17,7 @@ pro plot_activity_ssar
   ; make a nice plot
   dim=[500,700]
 
-  xr=[2009,2018.6]
+  xr=[2009,2019.5]
   yrm=2400
 
   ; made from daily_arnum.pro
@@ -65,7 +65,7 @@ pro plot_activity_ssar
   phist.close
 
 
-  xr=[1996,2018.6]
+  xr=[1996,2019.5]
   ; Do it our a longer time range 2000 to 2017
   ; histogram type line as xhist bin starts
   phist=plot(yf,smooth(noaa,7),/histogram,xtitle='',ytitle='< Daily NOAA AR >',xrange=xr,yrange=[0,16],$
