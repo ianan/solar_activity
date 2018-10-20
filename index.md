@@ -22,4 +22,4 @@ Cycle 23 and 24
 * [SILSO/ROB Sunspot number data](http://www.sidc.be/silso/)
 * [Radio F10.7cm data](http://www.spaceweather.gc.ca/solarflux/sx-5-en.php)
 
-*Updated: 15-March-2017*
+*Updated: 20-October-2018*
